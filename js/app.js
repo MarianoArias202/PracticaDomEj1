@@ -25,7 +25,7 @@ function adivinarnumero(){
         const parrafoNuevo = document.createElement('p') // <p></p>
         parrafoNuevo.innerHTML = `El numero ingresado es mayor al numero magico`;
         parrafoNuevo.className = 'lead'
-        const seccionInformacionExtra = document.getElementsByClassName('my-5');
+        const seccionInformacionExtra = document.getElementsByClassName('my-5') ;
      
         seccionInformacionExtra[1].appendChild(parrafoNuevo) 
     
